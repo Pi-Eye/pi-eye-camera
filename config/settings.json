@@ -1,0 +1,45 @@
+{
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "rotation": 0,
+    "flip": "none",
+    "bitRate": 17000000,
+    "fps": 30,
+    "codec": "MJPEG",
+    "sensorMode": 0,
+    "shutter": null,
+    "sharpness": 0,
+    "contrast": 0,
+    "brightness": 100,
+    "saturation": 0,
+    "iso": null,
+    "exposureCompensation": 0,
+    "exposureMode": "auto",
+    "awbMode": "auto",
+    "analogGain": 0,
+    "digitalGain": 0,
+    "quality": 75,
+    "format": 0
+  },
+  "text": {
+    "cam_name": "Camera",
+    "text_position": 0,
+    "show_date": true,
+    "font_size": 9,
+    "font_path": "./font.tff"
+  },
+  "motion": {
+    "gaussian_size": 2,
+    "scale_denominator": 2,
+    "bg_stabil_length": 30,
+    "motion_stabil_length": 3,
+    "min_pixel_diff": 5,
+    "min_changed_pixels": 0.05,
+    "motion_fps_scale": 1
+  },
+  "device": {
+    "device_type": 2,
+    "device_choice": 0
+  }
+}
