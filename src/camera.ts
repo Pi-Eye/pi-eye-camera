@@ -45,6 +45,11 @@ export default class Camera implements CameraInterface {
         this.InitCamera();
       });
     });
+
+    this.server_.events.on("settings", (settings) => {
+      console.log("Recieved new settings, saving and restarting camera");
+      this.SetCombinedSettings(settings);
+    });
   }
 
   InitCamera() {
