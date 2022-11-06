@@ -6,7 +6,6 @@ Camera side code of Pi-Eye
 
 ### Built With
 
-* React
 * NodeJS
 * TypeScript
 
@@ -18,21 +17,20 @@ Camera side code of Pi-Eye
 
 ### Installation
 
-1. Install NPM package: pi-eye-camera
+1. Clone repository
     ```sh
-    npm install https://github.com/Pi-Eye/pi-eye-camera
-    ```
+    git clone https://github.com/Pi-Eye/pi-eye-camera
 
+2. Install NPM package 
+    ```sh
+    npm install
+    ```
 ## Usage
 
-### Pi Eye Client
-
-```js
-import { static_path, index } from "pi-eye-client";
-
-static_path; // path to static directory of client
-index;       // index.html homepage of client
-```
+1. Start camera with npm by running:
+    ```sh
+    npm start
+    ```
 
 ## License
 
