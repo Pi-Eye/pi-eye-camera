@@ -36,10 +36,22 @@
     "motion_stabil_length": 3,
     "min_pixel_diff": 5,
     "min_changed_pixels": 0.05,
-    "motion_fps_scale": 1
+    "motion_fps_scale": 1,
+    "start_trigger": 0.8,
+    "start_trigger_length": 30,
+    "stop_timeout": 30
   },
   "device": {
     "device_type": 2,
     "device_choice": 0
+  },
+  "files": [],
+  "notifications": {
+    "from_email": "",
+    "mail_host": "",
+    "mail_port": "",
+    "mail_user": "",
+    "mail_pass": "",
+    "emails": ""
   }
 }

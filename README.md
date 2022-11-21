@@ -27,7 +27,11 @@ Camera side code of Pi-Eye
     ```
 ## Usage
 
-1. Start camera with npm by running:
+1. Make a copy of `temp.env` and name it `.env`
+
+2. Open `.env` and fill out environment variables, comments in file
+
+3. Start camera with npm by running:
     ```sh
     npm start
     ```
