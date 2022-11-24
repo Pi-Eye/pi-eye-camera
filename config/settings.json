@@ -11,7 +11,7 @@
     "shutter": null,
     "sharpness": 0,
     "contrast": 0,
-    "brightness": 100,
+    "brightness": 50,
     "saturation": 0,
     "iso": null,
     "exposureCompensation": 0,
@@ -27,7 +27,7 @@
     "text_position": 0,
     "show_date": true,
     "font_size": 9,
-    "font_path": "./font.tff"
+    "font_path": "../../assets/.tff"
   },
   "motion": {
     "gaussian_size": 2,
